@@ -55,6 +55,6 @@ while (count == count):
   os.system(f"title Youtube View Bot ^| Views Sent: {amount}^| Error: {error}")
   driver.get(url)
   time.sleep(int(convsecond)+interval)
-  print(f"{Fore.GREEN} [+] View")
+  print(f"{Fore.GREEN} [+] Views Sent: {amount}^")
   amount += 1
   os.system(f"title Youtube View Bot ^| Views Sent: {amount}^| Error: {error}")
